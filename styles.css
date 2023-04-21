@@ -1,0 +1,28 @@
+body {
+    width: auto;
+
+}
+
+h1 {text-align: center;}
+
+img {
+    width: auto;
+    height: 150px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+li {
+    width: calc(100% / 4);
+    height: auto;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
