@@ -26,3 +26,27 @@ ul {
     justify-content: center;
     gap: 50px;
 }
+
+.text-item {
+    height: 50px;
+    overflow: hidden;
+}
+
+.show-less {
+    display: none;
+}
+
+button {
+    border: none;
+    background: none;
+    color: rgba(123, 123, 123, 0.632);
+}
+
+li button.show-more,
+li button.show-less{
+    float: right;
+    margin-left: 10px;
+  }
+
+
+
